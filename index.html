@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simon Jadoul - Coach/Mentor Especializado en Relaciones</title>
+    <title>Simon Jadoul - Coach Especializado en Relaciones</title>
     <style>
         * {
             margin: 0;
@@ -89,6 +89,19 @@
             width: 22px;
             height: 22px;
             fill: white;
+        }
+
+        /* Foto de perfil en el header */
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            margin-bottom: 2rem;
+            object-fit: cover;
+            position: relative;
+            z-index: 2;
         }
 
         /* Contenido del hero con foto al lado */
@@ -182,6 +195,11 @@
         .cta-button:hover {
             transform: translateY(-3px);
             box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+        }
+
+        .cta-secondary {
+            background: transparent;
+            border: 2px solid white;
         }
 
         /* Secciones */
@@ -544,6 +562,12 @@
                 font-size: 1.1rem;
                 padding: 15px 30px;
             }
+
+            .profile-photo {
+                width: 120px;
+                height: 120px;
+                margin-bottom: 1.5rem;
+            }
         }
     </style>
 </head>
@@ -570,15 +594,15 @@
         
         <div class="hero-content">
             <div class="hero-header">
-                <img src="https://i.postimg.cc/SsRMP2h1/foto-simon-jadoul-website.jpg" alt="Simon Jadoul" class="profile-photo-side">
+                <img src="https://i.postimg.cc/ZnMWMQFP/IMG-3775.avif" alt="Simon Jadoul" class="profile-photo-side">
                 <div class="hero-text">
                     <h1>Simon Jadoul</h1>
-                    <div class="subtitle">Coach/Mentor Especializado en Relaciones</div>
+                    <div class="subtitle">Coach Especializado en Relaciones</div>
                 </div>
             </div>
             <p class="description">Ayudo a hombres a encontrar a su mujer soñada o mejorar su relación que se está perdiendo, en menos de 90 días. Sin perder tiempo, con estrategias probadas de comunicación y actitudes que realmente funcionan.</p>
             <div>
-                <a href="https://forms.gle/28udawaGFFrDWxdX7" target="_blank" class="cta-button">🎯 QUIERO Mi Prueba</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdMI8LS7NHZFbbJTrzuhAx2m1b7WzRuXftavp88HJVj001Jzg/viewform" target="_blank" class="cta-button">🎯 QUIERO Mi Prueba</a>
                 <a href="#contacto" class="cta-button">Llamada GRATUITA 30 min</a>
                 <a href="#servicios" class="cta-button">Conoce el Método</a>
             </div>
@@ -597,7 +621,7 @@
                     <div class="feature">✓ Diagnóstico personalizado</div>
                     <div class="feature">✓ 100% confidencial</div>
                 </div>
-                <a href="https://forms.gle/28udawaGFFrDWxdX7" target="_blank" class="cta-button quiz-button">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdMI8LS7NHZFbbJTrzuhAx2m1b7WzRuXftavp88HJVj001Jzg/viewform" target="_blank" class="cta-button quiz-button">
                     <span class="quiero-badge">QUIERO</span> Hacer Mi Prueba de Relaciones
                 </a>
             </div>
@@ -681,7 +705,7 @@
         <br>
         <p><strong>¿Estás listo para conocer a la mujer de tus sueños o salvar tu relación con herramientas probadas?</strong></p>
         <br>
-        <a href="https://forms.gle/28udawaGFFrDWxdX7" target="_blank" class="cta-button" style="background: white; color: #ff6b6b;">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdMI8LS7NHZFbbJTrzuhAx2m1b7WzRuXftavp88HJVj001Jzg/viewform" target="_blank" class="cta-button" style="background: white; color: #ff6b6b;">
             🎯 QUIERO Hacer Mi Prueba Ahora
         </a>
     </section>
@@ -698,13 +722,24 @@
         <p>📞 Llamada GRATUITA de 30 minutos - Sin compromiso</p>
         
         <div style="margin-top: 2rem;">
-            <a href="/cdn-cgi/l/email-protection#a6c5c9c8d2c7c5d2c9d5cfcbc9c8ccc7c2c9d3cae6c1cbc7cfca88c5c9cb99d5d3c4ccc3c5d29bf7f3efe3f4e9868b86f5c3d5cf6515c886e1d4c7d2d3cfd2c780c4c9c2df9beec9cac786f5cfcbc9c88a86f7f3efe3f4e986c7c1c3c8c2c7d486cbcf86d5c3d5cf6515c886c1d4c7d2d3cfd2c786c2c386959686cbcfc8d3d2c9d58886e3d5d2c9df86cacfd5d2c986d6c7d4c786c3c8c5c9c8d2d4c7d486c786cbcf86d6c7d4c3ccc786c3c886cbc3c8c9d586c2c3869f9686c2650bc7d588" class="cta-button">Envía "QUIERO" por Email</a>
+            <a href="mailto:contactosimonjadoul@gmail.com?subject=QUIERO%20-%20Llamada%20Gratuita&body=Hola%20Simon,%20QUIERO%20agendar%20mi%20llamada%20gratuita%20de%2030%20minutos." class="cta-button">📧 contactosimonjadoul@gmail.com</a>
         </div>
     </section>
 
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    <script>
         // Smooth scrolling
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                c
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
